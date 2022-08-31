@@ -383,7 +383,6 @@ server <- function(input, output, session) {
         }
     )
     
-    
     output$report_2 <- renderText(
         paste("Net Single Premium  of Full Acceleration Rider CI Insurance (Rial) :", round(CI_Report_2()/1000 * input$Capital_2 *10^7
         ))
