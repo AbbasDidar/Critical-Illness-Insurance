@@ -317,7 +317,6 @@ ui <- secure_app(
                                 )
                             ),
                             
-                            
                             fluidRow(
                                 column(
                                     width = 4
